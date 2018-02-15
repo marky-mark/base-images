@@ -1,6 +1,9 @@
 Note: Before you use these images
 
 * [What is tini?](https://github.com/krallin/tini)
+** Spawns your app just like Docker would, and makes itself transparent by forwarding any signals it receives to your app.
+** Reaps zombies that your app may generate.
+
 * [Advantages](https://github.com/krallin/tini/issues/8)
 * [Ubuntu Images](https://hub.docker.com/_/ubuntu/)
 
