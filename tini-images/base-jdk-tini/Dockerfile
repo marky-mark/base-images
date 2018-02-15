@@ -1,4 +1,4 @@
-FROM ubuntu:16.04-local
+FROM markymark1/ubuntu-tini:xenial-1
 MAINTAINER mkelly28@tcd.ie
 
 RUN apt-get update && apt-get install --no-install-recommends -y openjdk-8-jdk
